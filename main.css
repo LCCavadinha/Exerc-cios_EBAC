@@ -40,17 +40,17 @@ section{
     padding: 16px 0;
 }
 #tecnology{
-    background-color:rgba(161, 161, 161, 0.681);
+    background-color: rgba(11, 11, 89, 0.704);
     font-family: cursive;
 }
 #tecnology h2{
-    color:black;
+    color: white;
     font-size: 35px;
     text-align: left;
     margin-bottom: 25px;
 }
 #tecnology .articles article p{
-    color: black;
+    color: white;
     text-align: justify;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -59,8 +59,8 @@ section{
     font-size: 25px;
 }
 #tecnology article a {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 6px;
     display: inline-block;
     text-decoration: none;
@@ -70,17 +70,17 @@ section{
     text-decoration: underline;
 }
 #saude{
-    background-color: rgba(13, 164, 13, 0.356);
+    background-color: rgba(4, 85, 30, 0.661);
     font-family: cursive;
 }
 #saude h2{
-    color: rgb(8, 103, 30);
+    color: white;
     font-size: 35px;
     text-align: left;
     margin-bottom: 25px;
 }
 #saude .articles article p{
-    color: black;
+    color: white;
     text-align: justify;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -89,8 +89,8 @@ section{
     font-size: 25px;
 }
 #saude article a {
-    background-color: rgba(13, 164, 13, 0.356);
-    color:black;
+    background-color: white;
+    color:rgb(4, 82, 29);
     padding: 6px;
     display: inline-block;
     text-decoration: none;
