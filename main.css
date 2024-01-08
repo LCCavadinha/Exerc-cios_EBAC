@@ -3,6 +3,159 @@
     padding: 0;
     margin: 0;
 }
+body > header {
+    background-color: white;
+    padding: 16px 0;
+    color: black;
+    font-size: 25px;
+    font-family: monospace;
+}
 header li{
     display: inline;
+    margin-right: 30px;
+    text-align: center;
+}
+header li a {
+    color: black;
+    font-size: 25px;
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+.articles{
+    display: flex;
+    justify-content: space-between;
+}
+.articles article img{
+    margin-top: 8px;
+    height: 400px;
+    object-fit: cover;
+    width: 400px;
+}
+.articles article{
+    width: 30%;
+}
+section{
+    padding: 16px 0;
+}
+#tecnology{
+    background-color:rgba(161, 161, 161, 0.681);
+    font-family: cursive;
+}
+#tecnology h2{
+    color:black;
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+#tecnology .articles article p{
+    color: black;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#tecnology h3{
+    color: black;
+    font-size: 25px;
+}
+#tecnology article a {
+    background-color: black;
+    color: white;
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#tecnology .articles article a:hover {
+    text-decoration: underline;
+}
+#saude{
+    background-color: rgba(13, 164, 13, 0.356);
+    font-family: cursive;
+}
+#saude h2{
+    color: rgb(8, 103, 30);
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+#saude .articles article p{
+    color: black;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#saude h3{
+    color: black;
+    font-size: 25px;
+}
+#saude article a {
+    background-color: rgba(13, 164, 13, 0.356);
+    color:black;
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#saude .articles article a:hover {
+    text-decoration: underline;
+}
+#sports{
+    background-color:rgba(161, 161, 161, 0.681);
+    font-family: cursive;
+}
+#sports h2{
+    color:black;
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+#sports .articles article p{
+    color: black;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sports h3{
+    color: black;
+    font-size: 25px;
+}
+#sports article a {
+    background-color: black;
+    color: white;
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sports .articles article a:hover {
+    text-decoration: underline;
+}
+#economy{
+    background-color: rgba(13, 164, 13, 0.356);
+    font-family: cursive;
+}
+#economy h2{
+    color: rgb(8, 103, 30);
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+#economy .articles article p{
+    color: black;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#economy h3{
+    color: black;
+    font-size: 25px;
+}
+#economy article a {
+    background-color: rgba(13, 164, 13, 0.356);
+    color:black;
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#economy .articles article a:hover {
+    text-decoration: underline;
 }
