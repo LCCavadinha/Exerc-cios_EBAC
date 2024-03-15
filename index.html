@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Checklist</title>
+
+    <link rel="icon" href="./images/checklist.ico" type="image/ico">
+
+    <link rel="stylesheet" href="./main.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/98d7cb019f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1>
+                <i class="fa-solid fa-list-check"></i>
+                Programe seu dia
+            </h1>
+            <p>É fácil, vamos te ajudar<i class="fa-regular fa-face-smile-wink"></i></p>
+        </div>
+    </header>
+    <div class="container">
+        <div class="form-container">
+            <form id="form-tarefa">
+                <div>
+                    <label for="nome-tarefa">Nome da Atividade</label>
+                    <input type="text" required id="nome-tarefa" placeholder="Nome da tarefa">
+                </div>
+                <div>
+                    <label for="confirmar-tarefa">Confirme para criar uma lista</label>
+                    <button type="submit" id="confirmar-tarefa"><i
+                            class="fa-solid fa-square-check"></i>Confirmar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="ul-container">
+        <ul id="lista-tarefas">
+        </ul>
+    </div>  
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+
+body {
+    background: url(./images/background-checklist.jpg) no-repeat;
+    /* background-size: contain; */
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000b6;
+    padding: 16px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+header h1 {
+    color: #3e79b1;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+header p {
+    display: flex;
+    color: #f29826;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+header p i {
+    margin-left: 3px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000b6;
+    padding: 16px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.form-container div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container button {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #f29826;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container input {
+    margin-bottom: 15px;
+    font-size: 20px;
+    background-color: #3e79b1;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form-container input::placeholder {
+    color: #ffffff;
+}
+
+.form-container label {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3e79b1;
+    margin-bottom: 10px;
+}
+
+.form-container #mensagem-data {
+    color: #f29826;
+    margin-bottom: 15px;
+}
+
+.ul-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000b6;
+    padding: 16px;
+    margin: 15px;
+    border-radius: 10px;    
+}
+
+ul li {
+    font-size: 30px;
+    list-style: none;
+    color: #f29826;
+}
+
+ul li input[type="checkbox" i] {
+    padding: 19px;
+    color: #f29826;
+}
