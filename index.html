@@ -31,25 +31,40 @@
             <p>É fácil, vamos te ajudar<i class="fa-regular fa-face-smile-wink"></i></p>
         </div>
     </header>
-    <div class="container">
-        <div class="form-container">
-            <form id="form-tarefa">
-                <div>
-                    <label for="nome-tarefa">Nome da Atividade</label>
-                    <input type="text" required id="nome-tarefa" placeholder="Nome da tarefa">
-                </div>
-                <div>
-                    <label for="confirmar-tarefa">Confirme para criar uma lista</label>
-                    <button type="submit" id="confirmar-tarefa"><i
-                            class="fa-solid fa-square-check"></i>Confirmar</button>
-                </div>
-            </form>
+    <main>
+        <div class="container">
+            <div class="form-container">
+                <form id="form-atividade">
+                    <div>
+                        <label for="data-atividade">Selecione o dia da sua rotina</label>
+                        <input type="date" id="data-atividade">
+                    </div>
+                    <div>
+                        <label for="nome-atividade">Nome da Atividade</label>
+                        <input type="text" required id="nome-atividade" placeholder="Nome da atividade">
+                    </div>
+                    <div>
+                        <button type="submit" id="confirmar-atividade"><iclass="fa-solid fa-square-check></i>Confirmar</button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </div>
-    <div class="ul-container">
-        <ul id="lista-tarefas">
-        </ul>
-    </div>  
+        <div class="ul-container">
+            <div id="mensagem-data"></div>
+            <ul id="lista-atividades">
+            </ul>
+            <button type="reset" id="botao-reset"><i class="fa-regular fa-trash-can"></i>Apagar rotina</button>
+        </div>  
+    </main>
+
+    <footer>
+        <p>
+            <i class="fa-regular fa-copyright"></i>
+            Luiz Carlos
+        </p>
+        <a href="https://github.com/LCCavadinha"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/luiz-carlos-souza-costa-cavadinha-2646aa279/"><i class="fa-brands fa-linkedin"></i></a>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./main.js"></script>
