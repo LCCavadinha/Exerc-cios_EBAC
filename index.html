@@ -1,73 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seu Checklist</title>
-
-    <link rel="icon" href="./images/checklist.ico" type="image/ico">
-
-    <link rel="stylesheet" href="./main.css">
-
-
+    <title>Imersão Front-End</title>
+    <link rel="icon" href="./Images/code.ico" type="image/ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Quicksand:wght@300..700&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
     <script src="https://kit.fontawesome.com/98d7cb019f.js" crossorigin="anonymous"></script>
-
 </head>
-
 <body>
-    <header>
-        <div class="header-container">
-            <h1>
-                <i class="fa-solid fa-list-check"></i>
-                Programe seu dia
-            </h1>
-            <p>É fácil, vamos te ajudar<i class="fa-regular fa-face-smile-wink"></i></p>
-        </div>
-    </header>
     <main>
         <div class="container">
-            <div class="form-container">
-                <form id="form-atividade">
-                    <div>
-                        <label for="data-atividade">Selecione o dia da sua rotina</label>
-                        <input type="date" id="data-atividade">
+            <h1>
+                <i class="fa-solid fa-code"></i>
+                Imersão Front-End
+            </h1>
+            <p>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
+            </p>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#form" id="register">Cadastre-se</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="container">
+                <form id="form">
+                    <div class="form-campo">
+                        <label for="nome"><i class="fa-solid fa-user"></i>Nome Completo</label>
+                        <input type="text" id="nome" name="nome">
                     </div>
-                    <div>
-                        <label for="nome-atividade">Nome da Atividade</label>
-                        <input type="text" required id="nome-atividade" placeholder="Nome da atividade">
+                    <div class="form-campo">
+                        <label for="email"><i class="fa-regular fa-envelope"></i>E-mail</label>
+                        <input type="email" id="email" name="email">
                     </div>
-                    <div>
-                        <button type="submit" id="confirmar-atividade"><iclass="fa-solid fa-square-check></i>Confirmar</button>
+                    <div class="form-campo">
+                        <label for="cpf"><i class="fa-solid fa-id-card"></i>CPF</label>
+                        <input type="text" id="cpf" minlength="14" name="cpf">
+                    </div>
+                    <div class="form-campo">
+                        <label for="telefone"><i class="fa-solid fa-phone"></i>Telefone</label>
+                        <input type="tel" id="telefone" minlength="15" name="telefone">
+                    </div>
+                    <div class="form-campo">
+                        <label for="cidade"><i class="fa-solid fa-map-location-dot"></i>Cidade</label>
+                        <input type="text" id="cidade" name="cidade">
+                    </div>
+                    <div class="form-campo">
+                        <label for="bairro"><i class="fa-solid fa-map-location-dot"></i>Bairro</label>
+                        <input type="text" id="bairro" name="bairro">
+                    </div>
+                    <div class="form-campo">
+                        <label for="cep"><i class="fa-solid fa-map-location-dot"></i>Cep</label>
+                        <input type="text" id="cep" minlength="9" name="cep">
+                    </div>
+                    <div class="form-campo">
+                        <label for="logradouro"><i class="fa-solid fa-map-location-dot"></i>Logradouro</label>
+                        <input type="text" id="logradouro" name="logradouro">
+                    </div>
+                    <div class="form-campo">
+                        <label for="numero"><i class="fa-solid fa-map-location-dot"></i>Número</label>
+                        <input type="number" id="numero" name="numero">
+                    </div>
+                    <div class="form-campo">
+                        <label for="complemento"><i class="fa-solid fa-map-location-dot"></i>Complemento</label>
+                        <input type="text" id="complemento" name="complemento">
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" class="submit"><i class="fa-regular fa-circle-up"></i>Enviar</button>
+                        <button type="reset" class="clear"><i class="fa-regular fa-trash-can"></i>Apagar</button>
                     </div>
                 </form>
-            </div>
+            </section>
         </div>
-        <div class="ul-container">
-            <div id="mensagem-data"></div>
-            <ul id="lista-atividades">
-            </ul>
-            <button type="reset" id="botao-reset"><i class="fa-regular fa-trash-can"></i>Apagar rotina</button>
-        </div>  
     </main>
-
-    <footer>
-        <p>
-            <i class="fa-regular fa-copyright"></i>
-            Luiz Carlos
-        </p>
-        <a href="https://github.com/LCCavadinha"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/luiz-carlos-souza-costa-cavadinha-2646aa279/"><i class="fa-brands fa-linkedin"></i></a>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="./main.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./Js/jquery.mask.min.js"></script>
+    <script src="./Js/jquery.validate.min.js"></script>
+    <script src="./Js/messages_pt_BR.min.js"></script>
+    <script src="Js/main.js"></script>
 </body>
-
 </html>
