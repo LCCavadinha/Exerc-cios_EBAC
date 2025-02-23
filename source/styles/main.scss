@@ -1,0 +1,6 @@
+@use './config/reset.scss';
+@use './config/variaveis.scss' as*;
+
+body {
+    background-color: $corDeFundo;
+}
