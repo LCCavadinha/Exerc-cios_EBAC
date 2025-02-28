@@ -1,0 +1,16 @@
+{
+  "name": "exerc-cios_ebac",
+  "version": "1.0.0",
+  "description": "Repositório criado com a única finalidade de Postar os exercícios da EBAC",
+  "main": "index.js",
+  "scripts": {
+    "less": "less-watch-compiler ./source/styles ./build/styles",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.2.2",
+    "less-watch-compiler": "^1.16.3"
+  }
+}
